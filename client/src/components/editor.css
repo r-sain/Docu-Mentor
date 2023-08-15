@@ -1,0 +1,75 @@
+#editor{
+  height: 100vh;
+}
+
+.container {
+  width: 60%;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 10px auto 10px auto !important;
+  min-height: 100vh;
+}
+
+#editor .ql-toolbar.ql-snow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+  position: sticky;
+  top: 54px;
+  z-index: 11;
+  background: #f3f3f3;
+  border: none !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+
+
+#editor .header {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+#editor .header .appname {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5F6368;
+
+}
+
+#editor .logo svg {
+  padding-top: 3px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the track */
+  border-radius: 5px;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the handle */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* On hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color on hover */
+}
